@@ -18,9 +18,9 @@ body{
     justify-content: space-between;
 }
 .compreonline{
-    justify-content: space-between;
+    padding: 45px;
     text-align: center;
-    background-color: rgb(250, 249, 248);
+    background-color: #fafafa;
     height: 40px;
     line-height: 2.6;
     font-size: 14px;
@@ -46,18 +46,22 @@ p{
     font-size: 20px;
    /* letter-spacing: 5px; */
 }
+.imagens{
+    display: flex;
+    padding-top: 0;
+}
+
 .iPhone{
-    margin-top: 13px;
-    background-color: white;
-    height: 27vh;
+    background-color: #fbfbfd;
+    height: 240px;
     width: 100%;
     padding-top: 17px ;
 }
 .iPad{
     margin-top: 13px;
     background-color: black;
-    color: white;
-    height: 27vh;
+    color: #fafafa;
+    height: 240px;
     width: 100%;
     padding-top: 17px ;
 }
@@ -67,11 +71,10 @@ p{
 }
 .iMac{
     margin-top: 13px;
-    background-color: white;
-    height: 27vh;
+    background-color: #fafafa;
+    height: 240px;
     width: 100%;
-    padding-top: 17px ;
-    margin: 13px;
+    padding-top: 17px;
 }
 .menu-imagem-menor{
     text-align: center;
@@ -84,18 +87,16 @@ p{
     justify-content: space-between;
     line-height: 0.9;
     background-color: black;
-    color: white;
-    height: 30vh;
-    width: 100%;
-    padding-top: 7px ;
+    color: #fafafa;
+    height: 150px;
+    padding-top: 20px ;
     margin-left: 13px;
     margin-top: 13px;
 }
-.iPhone12pro-img{
+.imagemiphone12{
+    display: flex;
     text-align: center;
-    margin-top: 0;
     margin-left: 13px;
-
 }
 .titulo-imagem-menor{
     font-size: 40px;
@@ -115,6 +116,37 @@ p{
     text-align: center;
     text-decoration: none;
     justify-content: space-between;
-    line-height: 0.5;
-    margin: 13px;
+    line-height: 0.4;
+    background-color: #fafafa; /*#f5f5f7*/
+    height: 150px;
+    padding-top: 20px;
+    margin-right: 13px;
+    margin-top: 13px;
+}
+.imagemrelogio{
+    display: flex;
+    text-align: center;
+    margin-right: 13px;
+}
+.AirTag{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 0.8;
+    background-color: #fafafa;
+    height: 160px;
+    padding-top: 20px ;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.Arcade{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 0.8;
+    background-color: #fafafa;
+    height: 160px;
+    padding-top: 20px ;
+    margin-right: 13px;
+    margin-top: 13px;
 }
