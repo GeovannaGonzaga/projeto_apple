@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .menu{
-    background-color: rgba(36, 34, 34, 0.9); /*colocou o a para indicar que o menu é transparente, e o 0.9 para indicar a trensparencia*/
+    background-color: rgba(51, 51, 51, 0.9); /*colocou o a para indicar que o menu é transparente, e o 0.9 para indicar a trensparencia*/
     position: fixed;
     height: 45px;
     width: 100%;
@@ -46,10 +46,6 @@ p{
     font-size: 20px;
    /* letter-spacing: 5px; */
 }
-.imagens{
-    display: flex;
-    padding-top: 0;
-}
 
 .iPhone{
     background-color: #fbfbfd;
@@ -76,27 +72,9 @@ p{
     width: 100%;
     padding-top: 17px;
 }
-.menu-imagem-menor{
-    text-align: center;
-    text-decoration: none;
-    justify-content: space-between;
-}
-.iPhone12pro{
-    text-align: center;
-    text-decoration: none;
-    justify-content: space-between;
-    line-height: 0.9;
-    background-color: black;
-    color: #fafafa;
-    height: 150px;
-    padding-top: 20px ;
-    margin-left: 13px;
-    margin-top: 13px;
-}
-.imagemiphone12{
+.imagens{
     display: flex;
-    text-align: center;
-    margin-left: 13px;
+    padding-top: 0;
 }
 .titulo-imagem-menor{
     font-size: 40px;
@@ -111,6 +89,29 @@ p{
     justify-content: space-between;
     margin-left: 30px;
     font-size: 17px;
+   /* letter-spacing: 5px; */
+}
+.imagensdireita{
+    display: flex;
+    text-align: center;
+    margin-right: 13px;
+}
+.imagensesquerda{
+    display: flex;
+    padding-top: 0;
+    margin-left: 13px;
+}
+.iPhone12pro{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 0.9;
+    background-color: black;
+    color: #fafafa;
+    height: 150px;
+    padding-top: 20px ;
+    margin-left: 13px;
+    margin-top: 13px;
 }
 .relogio{
     text-align: center;
@@ -122,11 +123,6 @@ p{
     padding-top: 20px;
     margin-right: 13px;
     margin-top: 13px;
-}
-.imagemrelogio{
-    display: flex;
-    text-align: center;
-    margin-right: 13px;
 }
 .AirTag{
     text-align: center;
@@ -149,4 +145,32 @@ p{
     padding-top: 20px ;
     margin-right: 13px;
     margin-top: 13px;
+}
+.icons{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 0.5;
+    background-color: #fafafa;
+    height: 200px;
+    padding-top: 20px ;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.Cartaz{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 0.5;
+    background-color: black;
+    color: #fafafa;
+    height: 300px;
+    padding-top: 20px ;
+    margin-right: 13px;
+    margin-top: 13px;
+}
+.imagemcartaz{
+    display: flex;
+    padding-top: 13px;
+    margin-right: 13px;
 }
