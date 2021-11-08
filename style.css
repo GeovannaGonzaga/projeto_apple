@@ -82,6 +82,10 @@ p{
 .subtitulo-imagem-menor{
     font-size: 20px;
 }
+.subtitulo-imagem-menor2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 .saibamais-imagem-menor{
     font-size: 17px;
 }
@@ -157,20 +161,22 @@ p{
     margin-left: 13px;
     margin-top: 13px;
 }
-.Cartaz{
+.cartaz{
     text-align: center;
     text-decoration: none;
     justify-content: space-between;
     line-height: 0.5;
     background-color: black;
     color: #fafafa;
-    height: 300px;
-    padding-top: 20px ;
+    height: 35%;
     margin-right: 13px;
-    margin-top: 13px;
 }
 .imagemcartaz{
     display: flex;
-    padding-top: 13px;
+}
+.imagensdireitafinal{
+    display: flex;
+    text-align: center;
     margin-right: 13px;
+    margin-top: 13px;
 }
